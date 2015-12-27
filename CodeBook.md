@@ -1,13 +1,12 @@
 #Code Book for the Course Project file (Tidy.txt)
 
-Raw data, design and objectives can be found in README.md in this same repo. 
+Raw data, design, objectives and process made to obtain Tidy.txt can be found in README.md file in this repo. 
+https://github.com/rtomasc/GettingCleaningCourseProject.git/README.md
 
-GettingCleaningCourseProject/README.md
-
-
+## Dimensions and variables of Tidy.txt
+180 rows and 88 columns. No row names. 
 For each subject (1-30) and each activity (6 activities), there are 86 mean values. 
-These are the mean values for each mean and standard deviation among the 561 features of a more extense dataset. 
-There are Time domain variables, Frequency domain variables, and angle between two vectors. 
+These mean values are the means for each mean and standard deviation feature among the 561 features of the (more extense) raw dataset. There are Time domain variables, Frequency domain variables, and angle between two vectors. 
 Each variable deriving from 3-axial signals (XYZ), results in 3 variables, indicated here by -XYZ. Each -XYZ means 3 variables: -X, -Y and -Z. 
 
 ###Subject. Character.
@@ -25,6 +24,7 @@ Character. 6 different activities:
 ###Mean values. Numeric. 
 
 86 mean values. -XYZ means 3 variables: -X, -Y and -Z.
+
 * TimeBodyAccelerometerMean()-XYZ
 * TimeBodyAccelerometerSTD()-XYZ
 * TimeGravityAccelerometerMean()-XYZ
