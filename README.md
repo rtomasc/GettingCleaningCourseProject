@@ -6,7 +6,7 @@ This Course Project is based on the "Human Activity Recognition Using Smartphone
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The "README.txt" file provided with the dataset explains the study design and how data were processed and organized in several txt files
+The "README.txt" file provided with the dataset explains the study design and how data were processed and organized in several txt files. 
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 
@@ -18,6 +18,8 @@ For each record it is provided:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
+
+The "features_info.txt" file explains all the variables for the three first points, in a summarized and comprehensive way. 
 
 ##Objective
 Create one R script called run_analysis.R that does the following. 
