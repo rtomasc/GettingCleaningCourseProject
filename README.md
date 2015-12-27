@@ -30,3 +30,19 @@ Create one R script called run_analysis.R that does the following.
 ##Results
 The script "run_analysis.R" can be found in the current repo, with comments for each part. 
 
+###PART 0. 
+Downloads the zip file, loads libraries and gets data from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+Taking a look at the file names in Dataset.zip, we get the file names to extract them. Not all the files are extracted: according to the README.txt file, files in "Inertial Signals" directories are not needed. Train (for 21 subjects) and test (for 9 subjects) datasets are organized in 3 files each: subject, activity and features (measurements themselves). Files must be merged to obtain the complete dataset (step 1). These 6 files, along with activity labels (activity_labels.txt) and feature names (features.txt) files, are extracted. 
+
+### PART 1
+Adding test+train datasets we obtain 3 complete files for all the 30 subjects: subject, activity and features. 
+We name the features dataset columns using the dataset got from features.txt. 
+We add activity and subject as additional columns to features.
+The result is the "completeData" dataset.
+
+
+
+
+
+
+
