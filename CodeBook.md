@@ -1,7 +1,7 @@
 #Code Book for the Course Project file (Tidy.txt)
 
 Raw data, design, objectives and process made to obtain Tidy.txt can be found in README.md file in this repo. 
-https://github.com/rtomasc/GettingCleaningCourseProject.git/README.md
+GettingCleaningCourseProject.git/README.md
 
 ## Dimensions and variables of Tidy.txt
 180 rows and 88 columns. No row names. 
