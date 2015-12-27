@@ -19,30 +19,30 @@ The subject number (1 to 30)
 
 ###Mean values:   
 
-TimeBodyAccelerometerMean()-XYZ
-TimeBodyAccelerometerSTD()-XYZ
-TimeGravityAccelerometerMean()-XYZ
-TimeGravityAccelerometerSTD()-XYZ
-TimeBodyAccelerometerJerkMean()-XYZ
-TimeBodyAccelerometerJerkSTD()-XYZ
-TimeBodyGyroscopeMean()-XYZ
-TimeBodyGyroscopeSTD()-XYZ
-TimeBodyGyroscopeJerkMean()-XYZ
-TimeBodyGyroscopeJerkSTD()-XYZ
-TimeBodyAccelerometerMagnitudeMean()
-TimeBodyAccelerometerMagnitudeSTD()
-TimeGravityAccelerometerMagnitudeMean()
-TimeGravityAccelerometerMagnitudeSTD()
-TimeBodyAccelerometerJerkMagnitudeMean()
-TimeBodyAccelerometerJerkMagnitudeSTD()
-TimeBodyGyroscopeMagnitudeMean()
-TimeBodyGyroscopeMagnitudeSTD()
-TimeBodyGyroscopeJerkMagnitudeMean()
-TimeBodyGyroscopeJerkMagnitudeSTD()
-FrequencyBodyAccelerometerMean()-XYZ
-FrequencyBodyAccelerometerSTD()-XYZ
-FrequencyBodyAccelerometerMeanFreq()-XYZ
-FrequencyBodyAccelerometerJerkMean()-XYZ
+* TimeBodyAccelerometerMean()-XYZ
+* TimeBodyAccelerometerSTD()-XYZ
+* TimeGravityAccelerometerMean()-XYZ
+* TimeGravityAccelerometerSTD()-XYZ
+* TimeBodyAccelerometerJerkMean()-XYZ
+* TimeBodyAccelerometerJerkSTD()-XYZ
+* TimeBodyGyroscopeMean()-XYZ
+* TimeBodyGyroscopeSTD()-XYZ
+* TimeBodyGyroscopeJerkMean()-XYZ
+* TimeBodyGyroscopeJerkSTD()-XYZ
+* TimeBodyAccelerometerMagnitudeMean()
+* TimeBodyAccelerometerMagnitudeSTD()
+* TimeGravityAccelerometerMagnitudeMean()
+* TimeGravityAccelerometerMagnitudeSTD()
+* TimeBodyAccelerometerJerkMagnitudeMean()
+* TimeBodyAccelerometerJerkMagnitudeSTD()
+* TimeBodyGyroscopeMagnitudeMean()
+* TimeBodyGyroscopeMagnitudeSTD()
+* TimeBodyGyroscopeJerkMagnitudeMean()
+* TimeBodyGyroscopeJerkMagnitudeSTD()
+* FrequencyBodyAccelerometerMean()-XYZ
+* FrequencyBodyAccelerometerSTD()-XYZ
+* FrequencyBodyAccelerometerMeanFreq()-XYZ
+* FrequencyBodyAccelerometerJerkMean()-XYZ
 FrequencyBodyAccelerometerJerkSTD()-XYZ
 FrequencyBodyAccelerometerJerkMeanFreq()-XYZ
 FrequencyBodyGyroscopeMean()-XYZ
