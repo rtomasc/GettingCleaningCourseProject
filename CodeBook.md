@@ -1,5 +1,10 @@
 #Code Book for the Course Project file (Tidy.txt)
 
+Raw data, design and objectives can be found in README.md in this same repo. 
+
+GettingCleaningCourseProject/README.md
+
+
 For each subject (1-30) and each activity (6 activities), there are 86 mean values. 
 These are the mean values for each mean and standard deviation among the 561 features of a more extense dataset. 
 There are Time domain variables, Frequency domain variables, and angle between two vectors. 
