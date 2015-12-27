@@ -43,28 +43,28 @@ The subject number (1 to 30)
 * FrequencyBodyAccelerometerSTD()-XYZ
 * FrequencyBodyAccelerometerMeanFreq()-XYZ
 * FrequencyBodyAccelerometerJerkMean()-XYZ
-FrequencyBodyAccelerometerJerkSTD()-XYZ
-FrequencyBodyAccelerometerJerkMeanFreq()-XYZ
-FrequencyBodyGyroscopeMean()-XYZ
-FrequencyBodyGyroscopeSTD()-XYZ
-FrequencyBodyGyroscopeMeanFreq()-XYZ
-FrequencyBodyAccelerometerMagnitudeMean()
-FrequencyBodyAccelerometerMagnitudeSTD()
-FrequencyBodyAccelerometerMagnitudeMeanFreq()
-FrequencyBodyAccelerometerJerkMagnitudeMean()
-FrequencyBodyAccelerometerJerkMagnitudeSTD()
-FrequencyBodyAccelerometerJerkMagnitudeMeanFreq()
-FrequencyBodyGyroscopeMagnitudeMean()
-FrequencyBodyGyroscopeMagnitudeSTD()
-FrequencyBodyGyroscopeMagnitudeMeanFreq()
-FrequencyBodyGyroscopeJerkMagnitudeMean()
-FrequencyBodyGyroscopeJerkMagnitudeSTD()
-FrequencyBodyGyroscopeJerkMagnitudeMeanFreq()
-Angle(TimeBodyAccelerometerMean,Gravity)
-Angle(TimeBodyAccelerometerJerkMean),GravityMean)
-Angle(TimeBodyGyroscopeMean,GravityMean)
-Angle(TimeBodyGyroscopeJerkMean,GravityMean)
-Angle(X,GravityMean)
-Angle(Y,GravityMean)
-Angle(Z,GravityMean)
+* FrequencyBodyAccelerometerJerkSTD()-XYZ
+* FrequencyBodyAccelerometerJerkMeanFreq()-XYZ
+* FrequencyBodyGyroscopeMean()-XYZ
+* FrequencyBodyGyroscopeSTD()-XYZ
+* FrequencyBodyGyroscopeMeanFreq()-XYZ
+* FrequencyBodyAccelerometerMagnitudeMean()
+* FrequencyBodyAccelerometerMagnitudeSTD()
+* FrequencyBodyAccelerometerMagnitudeMeanFreq()
+* FrequencyBodyAccelerometerJerkMagnitudeMean()
+* FrequencyBodyAccelerometerJerkMagnitudeSTD()
+* FrequencyBodyAccelerometerJerkMagnitudeMeanFreq()
+* FrequencyBodyGyroscopeMagnitudeMean()
+* FrequencyBodyGyroscopeMagnitudeSTD()
+* FrequencyBodyGyroscopeMagnitudeMeanFreq()
+* FrequencyBodyGyroscopeJerkMagnitudeMean()
+* FrequencyBodyGyroscopeJerkMagnitudeSTD()
+* FrequencyBodyGyroscopeJerkMagnitudeMeanFreq()
+* Angle(TimeBodyAccelerometerMean,Gravity)
+* Angle(TimeBodyAccelerometerJerkMean),GravityMean)
+* Angle(TimeBodyGyroscopeMean,GravityMean)
+* Angle(TimeBodyGyroscopeJerkMean,GravityMean)
+* Angle(X,GravityMean)
+* Angle(Y,GravityMean)
+* Angle(Z,GravityMean)
 
