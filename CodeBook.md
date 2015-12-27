@@ -8,17 +8,18 @@ Each variable deriving from 3-axial signals (XYZ), results in 3 variables, indic
 ###Subject
 The subject number (1 to 30)
 
-###Activity. 
+###Activity
 6 different activities: 
-  ** WALKING
+  * WALKING
   * WALKING_UPSTAIRS
   * WALKING_DOWNSTAIRS
   * SITTING
   * STANDING
   * LAYING
 
-###Mean values:   
+###Mean values
 
+86 mean values. -XYZ means 3 variables: -X, -Y and -Z.
 * TimeBodyAccelerometerMean()-XYZ
 * TimeBodyAccelerometerSTD()-XYZ
 * TimeGravityAccelerometerMean()-XYZ
