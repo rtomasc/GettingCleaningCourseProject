@@ -5,17 +5,18 @@ There averaged values are the means and standard deviations among the 561 featur
 There are Time domain variables, and Frequency domain variables, and angle between two vectors. 
 Each variable deriving from 3-axial signals (XYZ), accordingly results in 3 variables, indicated here by -XYZ. 
 
-##Subject. The subject number (1 to 30)
+###Subject
+The subject number (1 to 30)
 
-##Activity. 6 different activities: 
-  WALKING
-  WALKING_UPSTAIRS
-  WALKING_DOWNSTAIRS
-  SITTING
-  STANDING
-  LAYING
+###Activity. 6 different activities: 
+  *WALKING
+  *WALKING_UPSTAIRS
+  *WALKING_DOWNSTAIRS
+  *SITTING
+  *STANDING
+  *LAYING
 
-##Mean values:   
+###Mean values:   
 
 TimeBodyAccelerometerMean()-XYZ
 TimeBodyAccelerometerSTD()-XYZ
