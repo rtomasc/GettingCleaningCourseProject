@@ -40,6 +40,24 @@ We name the features dataset columns using the dataset got from features.txt.
 We add activity and subject as additional columns to features.
 The result is the "completeData" dataset.
 
+###PART 2
+Extracts only the column numbers of the mean or std of each measurement("mean" and "std" in variable names).
+Te result is the "extractedData" dataset, with 10299 rows and 88 variables (86 mean and standard deviation for each measurement,  Subject -subject number- and Activity -activity code-.
+
+###PART 3 
+The variable Activity is renamed with activity names from the activityLabels dataset (6 activities)
+
+###PART 4
+Labels the data set columns with more descriptive variable names. The result is the "extractedData" dataset with new variable names. 
+
+###PART 5 
+From "extractedData" creates a second, independent tidy data set with the average of each variable, 
+for each activity and each subject (considered as factors).
+The result is the "tidyData" dataset, with 180 rows (30 subjects * 6 activities) and 88 columns (subject, activity, and 86 mean values, one for each measurement. 
+The tidyData dataset is written in a txt file: Tidy.txt. 
+
+
+
 
 
 
