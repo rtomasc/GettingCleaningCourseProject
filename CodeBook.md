@@ -1,6 +1,6 @@
 #Code Book for the Course Project file (Tidy.txt)
 
-Raw data, design, objectives and process made to obtain Tidy.txt can be found in README.md file in this repo. 
+Raw data, design, objectives and the getting&cleaning process made to obtain Tidy.txt can be found in README.md file in this repo. 
 https://github.com/rtomasc/GettingCleaningCourseProject.git
 
 ## Dimensions and variables of Tidy.txt
