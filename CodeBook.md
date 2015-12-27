@@ -1,9 +1,9 @@
 #Code Book for the Course Project file (Tidy.txt)
 
 For each subject (1-30) and each activity (6 activities), there are 86 mean values. 
-There averaged values are the means and standard deviations among the 561 features of a more extense dataset. 
-There are Time domain variables, and Frequency domain variables, and angle between two vectors. 
-Each variable deriving from 3-axial signals (XYZ), accordingly results in 3 variables, indicated here by -XYZ. 
+These are the mean values for each mean and standard deviation among the 561 features of a more extense dataset. 
+There are Time domain variables, Frequency domain variables, and angle between two vectors. 
+Each variable deriving from 3-axial signals (XYZ), results in 3 variables, indicated here by -XYZ. Each -XYZ means 3 variables: -X, -Y and -Z. 
 
 ###Subject
 The subject number (1 to 30)
