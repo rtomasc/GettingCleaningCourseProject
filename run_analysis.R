@@ -1,18 +1,18 @@
 #PART 0. Downloading the zip file, loading libraries and getting data
 
-#FileUrl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-#download.file(FileUrl, destfile="Dataset.zip")
-#downloaded<-date()
+FileUrl<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(FileUrl, destfile="Dataset.zip")
+downloaded<-date()
 # Look at the file names in Dataset.zip. Get the file names to extract them. 
-#unzip("Dataset.zip", files=NULL,list=TRUE )
-#unzip("Dataset.zip", files="UCI HAR Dataset/test/X_test.txt") 
-#unzip("Dataset.zip", files="UCI HAR Dataset/train/X_train.txt")
-#unzip("Dataset.zip", files="UCI HAR Dataset/test/Y_test.txt") 
-#unzip("Dataset.zip", files="UCI HAR Dataset/train/Y_train.txt")
-#unzip("Dataset.zip", files="UCI HAR Dataset/activity_labels.txt")
-#unzip("Dataset.zip", files="UCI HAR Dataset/test/subject_test.txt")
-#unzip("Dataset.zip", files="UCI HAR Dataset/features.txt")
-#unzip("Dataset.zip", files="UCI HAR Dataset/train/subject_train.txt")
+unzip("Dataset.zip", files=NULL,list=TRUE )
+unzip("Dataset.zip", files="UCI HAR Dataset/test/X_test.txt") 
+unzip("Dataset.zip", files="UCI HAR Dataset/train/X_train.txt")
+unzip("Dataset.zip", files="UCI HAR Dataset/test/Y_test.txt") 
+unzip("Dataset.zip", files="UCI HAR Dataset/train/Y_train.txt")
+unzip("Dataset.zip", files="UCI HAR Dataset/activity_labels.txt")
+unzip("Dataset.zip", files="UCI HAR Dataset/test/subject_test.txt")
+unzip("Dataset.zip", files="UCI HAR Dataset/features.txt")
+unzip("Dataset.zip", files="UCI HAR Dataset/train/subject_train.txt")
 
 #Loading libraries
 library(data.table)
@@ -111,3 +111,4 @@ write.table(tidyData, file = "Tidy.txt", row.names = FALSE)
 
 #Making a txt with variable names. to be used in the CodeBook
 write.table(tidyData_variables, file = "CodeBook.txt", row.names = FALSE)
+
