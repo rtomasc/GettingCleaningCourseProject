@@ -10,7 +10,7 @@ The subject number (1 to 30)
 
 ###Activity. 
 6 different activities: 
-  * WALKING
+  ** WALKING
   * WALKING_UPSTAIRS
   * WALKING_DOWNSTAIRS
   * SITTING
