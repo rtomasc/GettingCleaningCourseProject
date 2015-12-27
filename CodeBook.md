@@ -9,7 +9,7 @@ For each subject (1-30) and each activity (6 activities), there are 86 mean valu
 These mean values are the means for each mean and standard deviation feature among the 561 features of the (more extense) raw dataset. There are Time domain variables, Frequency domain variables, and angle between two vectors. 
 Each variable deriving from 3-axial signals (XYZ), results in 3 variables, indicated here by -XYZ. Each -XYZ means 3 variables: -X, -Y and -Z. 
 
-###Subject. Character.
+###Subject. 
 The subject number (1 to 30).Character.
 
 ###Activity. 
