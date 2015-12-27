@@ -5,11 +5,11 @@ These are the mean values for each mean and standard deviation among the 561 fea
 There are Time domain variables, Frequency domain variables, and angle between two vectors. 
 Each variable deriving from 3-axial signals (XYZ), results in 3 variables, indicated here by -XYZ. Each -XYZ means 3 variables: -X, -Y and -Z. 
 
-###Subject
-The subject number (1 to 30)
+###Subject. Character.
+The subject number (1 to 30).Character.
 
-###Activity
-6 different activities: 
+###Activity. 
+Character. 6 different activities: 
   * WALKING
   * WALKING_UPSTAIRS
   * WALKING_DOWNSTAIRS
@@ -17,7 +17,7 @@ The subject number (1 to 30)
   * STANDING
   * LAYING
 
-###Mean values
+###Mean values. Numeric. 
 
 86 mean values. -XYZ means 3 variables: -X, -Y and -Z.
 * TimeBodyAccelerometerMean()-XYZ
