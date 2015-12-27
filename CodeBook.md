@@ -8,7 +8,8 @@ Each variable deriving from 3-axial signals (XYZ), accordingly results in 3 vari
 ###Subject
 The subject number (1 to 30)
 
-###Activity. 6 different activities: 
+###Activity. 
+6 different activities: 
   * WALKING
   * WALKING_UPSTAIRS
   * WALKING_DOWNSTAIRS
